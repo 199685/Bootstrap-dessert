@@ -1,0 +1,61 @@
+.img-size{
+    width: 100%;
+    height: 315px;
+}
+.imgUrl-6{
+    background-image: url(https://images.unsplash.com/photo-1534073737927-85f1ebff1f5d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1204e5551548223af82981f0025984ef&auto=format&fit=crop&w=634&q=80);
+}
+.imgUrl-7{
+    background-image: url(https://images.unsplash.com/photo-1525059337994-6f2a1311b4d4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7ce5bbf66bdb4ed3b6965f0b3618aa43&auto=format&fit=crop&w=654&q=80);
+}
+.imgUrl-8{
+    background-image: url(https://images.unsplash.com/photo-1490474504059-bf2db5ab2348?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0cad6d3de8adbdf6298d4ca5d094f8c6&auto=format&fit=crop&w=1350&q=80);
+}
+.vertical-rl{
+    writing-mode: vertical-rl;
+    letter-spacing: 0.1em;
+    left: 20px;
+}
+.heart{
+    cursor: pointer;
+    right: 20px;
+    top: 15px;
+}
+
+.boder-right{
+    border-right: 1px solid $c2;
+}
+.product{
+    border-right: 1px solid $c2;
+    border-left: 1px solid $c2;
+}
+.touch{
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+}
+// product
+
+
+
+.order{
+    background: $c1;
+    color: white;
+    h2{
+        border-bottom: 1px solid $c5;
+    }
+}
+@media(max-width:768px){
+    .order{
+        background: $c5;
+        color: $c1;
+        h2{
+            border-bottom-width: 0;
+            background: $c2;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+//order

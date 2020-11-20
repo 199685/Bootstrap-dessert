@@ -1,0 +1,34 @@
+.carts-img{
+    background-image: url(https://images.unsplash.com/photo-1497052254059-f3e0bf1a5133?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ce7267675921fc7e41b5610f49750a40&auto=format&fit=crop&w=685&q=80);
+    width: 110px;
+    height: 110px;
+}
+@media(max-width:767px) {
+    .text-md-right{
+        text-align: right;
+        margin: 15px 0;
+    }
+    
+    .width--40{
+        width: 40%;
+        padding-left: 10px;
+    }
+    .width--60{
+        width: 55%;
+    }
+    .count{
+        display: flex;
+    }
+    .carts-boder{
+        border-bottom: 1px solid $c2;
+        padding-bottom: 10px;
+    }
+    .px--0{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .md--15{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}

@@ -1,0 +1,144 @@
+.bg-cover {
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.banner-img {
+    background-image: url(https://images.unsplash.com/photo-1473256599800-b48c7c88cd7e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ae0d68ab0db4ee79bdce92722b31112b&auto=format&fit=crop&w=925&q=80);
+    height: 496px;
+
+}
+
+.imgUrl-1 {
+
+    background-image: url(https://images.unsplash.com/photo-1504473089979-b1c4993a9653?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9db69b72e1f7d1b4e5c81cee531108ff&auto=format&fit=crop&w=634&q=80);
+    height: 256px;
+
+    &::before {
+        content: "本日精選";
+        background-color: rgba(255, 225, 128, 0.8);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        writing-mode: vertical-lr;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 1.1em;
+        font-weight: bold;
+        color: $c1;
+        cursor: pointer;
+        font-size: 24px;
+        transition: background-color 0.3s;
+    }
+}
+
+.imgUrl-2 {
+    background-image: url(https://images.unsplash.com/photo-1525059337994-6f2a1311b4d4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7ce5bbf66bdb4ed3b6965f0b3618aa43&auto=format&fit=crop&w=654&q=80);
+    height: 256px;
+    border-left: 2px solid $c5;
+    border-right: 2px solid $c5;
+
+    &::before {
+        content: "人氣推薦";
+        background-color: rgba(120, 145, 125, 0.8);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        writing-mode: vertical-lr;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 1.1em;
+        font-weight: bold;
+        color: $c2;
+        cursor: pointer;
+        font-size: 24px;
+        transition: background-color 0.3s;
+    }
+
+    &:hover::before {
+        background-color: rgba(255, 225, 128, 0.8);
+        color: $c1;
+
+    }
+
+}
+
+.imgUrl-3 {
+    background-image: url(https://images.unsplash.com/photo-1490914327627-9fe8d52f4d90?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=73ed228f25bdefd2291c242f6d390fca&auto=format&fit=crop&w=634&q=80);
+    height: 256px;
+
+    &::before {
+        content: "新品上市";
+        background-color: rgba(120, 145, 125, 0.8);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        writing-mode: vertical-lr;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 1.1em;
+        font-weight: bold;
+        color: $c2;
+        cursor: pointer;
+        font-size: 24px;
+        transition: background-color 0.3s;
+    }
+
+    &:hover::before {
+        background-color: rgba(255, 225, 128, 0.8);
+        color: $c1;
+
+    }
+}
+
+.mt_80 {
+    margin-top: -80px;
+}
+
+.vertical-text {
+    line-height: 2em;
+}
+
+@media (min-width: 768px) {
+    .vertical-text {
+        writing-mode: vertical-rl;
+        max-height: 414px;
+
+    }
+
+    .h-414 {
+        max-height: 414px;
+    }
+}
+
+
+.imgUrl-4 {
+    background-image: url(https://images.unsplash.com/photo-1519730722595-a5ff788dea4d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2712a33fe9b13532f0682ac4e1e749b8&auto=format&fit=crop&w=634&q=80);
+    min-height: 250px;
+}
+
+@media (min-width: 768px) {
+    .my_25 {
+        margin: -25px 0;
+    }
+}
+
+.ml_15 {
+    margin-left: -20px;
+}
+
+.imgUrl-5 {
+    background-image: url(https://images.unsplash.com/photo-1497052254059-f3e0bf1a5133?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ce7267675921fc7e41b5610f49750a40&auto=format&fit=crop&w=685&q=80);
+    min-height: 250px;
+}
+

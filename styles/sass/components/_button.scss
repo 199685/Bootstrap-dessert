@@ -1,0 +1,28 @@
+.icon-position{
+    top: 20px;
+    left: 20px;
+}
+.input-focus-c2{
+    background-color: $c2;
+    border-width: 0;
+    width: 100%;
+    &:focus{
+        outline: none;
+        background-color: $c5;
+    }
+}
+
+.button-position{
+    min-height: 70px;
+    min-width: 70px;
+}
+button{
+    border: none;
+    &:focus{
+        outline: none;
+       
+    }
+}
+.btn-c2{
+    color: $c1;
+}

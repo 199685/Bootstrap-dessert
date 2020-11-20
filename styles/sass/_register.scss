@@ -1,0 +1,15 @@
+.social{
+    max-height: 394.22px ;
+   
+}
+@media(max-width:768px){
+    .social{
+        padding-bottom: 1.5em;
+        img{
+            height: 50.22px;
+        }
+    }
+}
+.fa-key{
+    transform: rotate(220deg);
+}
